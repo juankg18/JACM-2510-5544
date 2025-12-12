@@ -1,4 +1,4 @@
-# JACM-2510-5544 — Reproducible Research Repository
+## JACM-2510-5544 — Reproducible Research Repository
 # Comparative Optimization of Vibrational Properties in Tensegrity Structures via the Spectral Element Method
 
 This repository provides the full set of computational resources used in the article “Comparative Optimization of Vibrational Properties in Tensegrity Structures via the Spectral Element Method”.
