@@ -1,4 +1,4 @@
-## JACM-2510-5544 — Reproducible Research Repository
+# JACM-2510-5544 — Reproducible Research Repository
 # Comparative Optimization of Vibrational Properties in Tensegrity Structures via the Spectral Element Method
 
 This repository provides the full set of computational resources used in the article “Comparative Optimization of Vibrational Properties in Tensegrity Structures via the Spectral Element Method”.
@@ -7,7 +7,7 @@ It includes reproducible implementations for the Spectral Element Method (SEM), 
 The structure is designed to ensure full transparency and replicability of the results published in the manuscript.
 
 
-Content Overview
+## Content Overview
 1. Spectral Element Method (SEM)
 
 The folder code/sem contains the full SEM implementation used to compute vibrational properties of several tensegrity configurations.
@@ -67,7 +67,7 @@ The folder figures/ contains scripts used to generate the plots appearing in the
 
 
 
-How to Reproduce the Results
+## How to Reproduce the Results
 
 1. Clone this repository:
 
@@ -85,27 +85,19 @@ addpath('data');
 4. To reproduce:
 
 SEM results: run SEM_vibration_generalAt.m
-
 FEM comparisons: run run_fem_tensegrity.m
-
 Optimizations: run run_optimization.m
-
 Uncertainty quantification: run any of the MC scripts (e.g., MC_rhoarea.m)
-
 Figures: execute scripts inside /figures/
 
-Computational Environment
+## Computational Environment
 
 All simulations were executed on a workstation equipped with:
-
 Intel Core i9 / AMD Ryzen 9 class CPU (multi-core)
-
 32–64 GB RAM
-
 MATLAB R2022a–R2024a
-
 Parallel execution (PSO and Monte Carlo) used MATLAB’s Parallel Computing Toolbox.
 
-License
+## License
 
 Unless otherwise stated, the code in this repository is released under a permissive research-oriented license. Please cite the associated article when using or extending these materials.
